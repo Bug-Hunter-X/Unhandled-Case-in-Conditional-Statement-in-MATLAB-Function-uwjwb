@@ -1,0 +1,3 @@
+# MATLAB Function with Unhandled Case in Conditional Statement
+
+This repository demonstrates a common error in MATLAB code: an unhandled case within a conditional statement.  The function `myFunction.m` correctly handles cases where the input `x` is greater than 10 or less than 0, but it fails to explicitly handle the case where `x` is exactly 10.  This can lead to unexpected behavior depending on the intended logic. The solution `myFunctionSolution.m` shows how to address this by adding the missing condition. 
